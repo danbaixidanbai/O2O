@@ -1,0 +1,19 @@
+.row-product-category{
+    boder: 1px soild #999;
+    padding: .5em;
+    border-bottom: none;
+}
+
+.row-product-category{
+    border-bottom: 1px solid #999999;
+}
+
+.category-input{
+    border: none;
+    background-color: #eee;
+}
+
+.row-product-category-name{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
