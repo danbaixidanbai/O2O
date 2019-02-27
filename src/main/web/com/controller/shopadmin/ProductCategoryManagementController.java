@@ -23,7 +23,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping(value = "/shopadmin")
-public class ProductController {
+public class ProductCategoryManagementController {
 
     @Autowired
     private ProductCategoryService productCategoryService;

@@ -45,12 +45,12 @@ public class ProductTest extends BaseTest {
     public void TestProductImg(){
         ProductImg productImg1=new ProductImg();
         ProductImg productImg2=new ProductImg();
-        productImg1.setImgAddr("test1");
-        productImg2.setImgAddr("test2");
+        productImg1.setImgAddr("test3");
+        productImg2.setImgAddr("test4");
         productImg1.setProductId(1l);
         productImg2.setProductId(1l);
-        productImg1.setPriority(1);
-        productImg2.setPriority(2);
+        /*productImg1.setPriority(1);
+        productImg2.setPriority(2);*/
         productImg1.setCreateTime(new Date());
         productImg2.setCreateTime(new Date());
         List<ProductImg> productImgList=new ArrayList<ProductImg>();

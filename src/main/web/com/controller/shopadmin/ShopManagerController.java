@@ -76,6 +76,7 @@ public class ShopManagerController {
             }catch (Exception e){
                 map.put("success",false);
                 map.put("errMsg",e.toString());
+                return map;
             }
         }else{
             map.put("success",false);
@@ -105,6 +106,7 @@ public class ShopManagerController {
         }catch (Exception e){
             map.put("success",false);
             map.put("errMsg",e.getMessage());
+            return map;
         }
         return map;
     }
@@ -125,6 +127,7 @@ public class ShopManagerController {
         }catch (Exception e){
             map.put("success",false);
             map.put("errMsg",e.getMessage());
+            return map;
         }
 
         return  map;

@@ -7,7 +7,16 @@
         insert  into tb_product_img(img_addr,img_desc,priority,create_time,product_id)
         values
         <foreach collection="list" item="productImg" index="index" separator=",">
-            (#{productImg.imgAddr},#{productImg.imgDesc},#{productImg.priority},#{productImg.createTime},#{productImg.productId})
+            <if test="productImg.priority==null">
+                (#{productImg.imgAddr},#{productImg.imgDesc},
+                0,
+                #{productImg.createTime},#{productImg.productId})
+            </if>
+            <if test="productImg.priority!=null">
+                (#{productImg.imgAddr},#{productImg.imgDesc},
+                #{productImg.priority},
+                #{productImg.createTime},#{productImg.productId})
+            </if>
         </foreach>
     </insert>
 </mapper>

@@ -1,7 +1,5 @@
 package com.enums;
 
-import com.entity.ProductCategory;
-
 public enum ProductCategoryStateEnum {
     SUCCESS(1,"操作成功"),
     INNER_ERROR(-1001,"操作失败"),

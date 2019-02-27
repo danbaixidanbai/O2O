@@ -1,0 +1,4 @@
+2019-02-26 17:29:16.146 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/2/6654720190226172916.jpg
+2019-02-26 17:29:16.155 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/2/6654720190226172916.jpg
+2019-02-26 17:29:16.610 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/2/7776520190226172916.png
+2019-02-26 17:29:16.610 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/2/7776520190226172916.png
