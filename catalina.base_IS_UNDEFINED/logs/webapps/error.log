@@ -1,4 +1,8 @@
-2019-02-26 17:29:16.146 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/2/6654720190226172916.jpg
-2019-02-26 17:29:16.155 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/2/6654720190226172916.jpg
-2019-02-26 17:29:16.610 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/2/7776520190226172916.png
-2019-02-26 17:29:16.610 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/2/7776520190226172916.png
+2019-02-28 00:48:56.946 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/16/5790620190228004856.jpg
+2019-02-28 00:48:56.966 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/16/5790620190228004856.jpg
+2019-02-28 00:48:57.323 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/16/6775720190228004857.png
+2019-02-28 00:48:57.323 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/16/6775720190228004857.png
+2019-02-28 00:54:10.171 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/16/6640420190228005410.jpg
+2019-02-28 00:54:10.173 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/16/6640420190228005410.jpg
+2019-02-28 01:11:19.329 [main] DEBUG com.util.ImageUtil- current relativeAddr is:upload/item/shop/16/4453420190228011119.jpg
+2019-02-28 01:11:19.331 [main] DEBUG com.util.ImageUtil- current complete addr is:D:/project/image/upload/item/shop/16/4453420190228011119.jpg

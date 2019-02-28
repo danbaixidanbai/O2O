@@ -1,6 +1,7 @@
 package com.service.impl;
 
 import com.dao.ProductCategoryDao;
+import com.dao.ProductDao;
 import com.dto.ProductCategoryExecution;
 import com.entity.ProductCategory;
 import com.enums.ProductCategoryStateEnum;
@@ -17,6 +18,9 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
 
     @Autowired
     private ProductCategoryDao productCategoryDao;
+    @Autowired
+    private ProductDao productDao;
+
     @Override
     public List<ProductCategory> getProductCategoryList(long shopId) {
         return productCategoryDao.queryProductCategoryListByShopId(shopId);
@@ -40,10 +44,15 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
 
     @Override
     @Transactional
-    public ProductCategoryExecution deleteProductCategory(long shopCategoryId, long shopId) throws ProductCategoryOperationException {
-        //ToDo 将此类别商品里的类别Id置为空
+    public ProductCategoryExecution deleteProductCategory(long productCategoryId, long shopId) throws ProductCategoryOperationException {
         try{
-            int effectNum=productCategoryDao.deleteProductCategory(shopCategoryId,shopId);
+            int effectNum=productDao.updateProductCategoryToNull(productCategoryId);
+            if(effectNum<0) throw new ProductCategoryOperationException("商品类别删除失败！！！");
+        }catch (Exception e){
+            throw new ProductCategoryOperationException("deleteProductCategoryToNullError"+e.toString());
+        }
+        try{
+            int effectNum=productCategoryDao.deleteProductCategory(productCategoryId,shopId);
             if (effectNum<=0){
                 throw new ProductCategoryOperationException("店铺类别删除失败！！！");
             }else return new ProductCategoryExecution(ProductCategoryStateEnum.SUCCESS);

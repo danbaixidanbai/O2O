@@ -19,4 +19,11 @@
             </if>
         </foreach>
     </insert>
+    <delete id="delProductImgByProductId" parameterType="Long">
+        delete from tb_product_img
+        where product_id=#{productId}
+    </delete>
+    <select id="queryProductImgListByProductId" parameterType="Long" resultType="com.entity.ProductImg">
+        select * from tb_product_img where product_id=#{productId}
+    </select>
 </mapper>
