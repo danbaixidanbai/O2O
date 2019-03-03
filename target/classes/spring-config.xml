@@ -53,7 +53,7 @@
     </bean>
 
     <!-- 5.扫描service包下所有使用注解的类型 -->
-    <context:component-scan base-package="com.service"></context:component-scan>
+    <context:component-scan base-package="com.service"/>
 
     <!-- 6.配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
