@@ -7,28 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc68e064-fef0-42f2-afef-03f55252ff70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/HeadLineDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/com/controller/index/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/com/controller/index/MainPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/com/dao/HeadLineDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/com/service/HeadLineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/com/service/impl/HeadLineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/index/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/index/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/dao/test/HeadLineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/com/controller/index/ShopListController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/ShopCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/com/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/com/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/com/service/impl/ProductCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/com/service/impl/ProductCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/mapper/ProductDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/O2O/WEB-INF/classes/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/ProductCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/ProductCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/ShopDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +40,7 @@
     <session id="-1868512492">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.24" value="3" />
@@ -68,7 +49,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.34" value="3" />
           <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="3" />
@@ -76,7 +57,7 @@
           <entry key="project.open.time.40" value="3" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,25 +66,25 @@
           <entry key="css" value="198" />
           <entry key="dummy" value="37" />
           <entry key="html" value="215" />
-          <entry key="java" value="22555" />
+          <entry key="java" value="23843" />
           <entry key="js" value="6503" />
           <entry key="jsp" value="3" />
           <entry key="properties" value="164" />
           <entry key="txt" value="59" />
-          <entry key="xml" value="7533" />
+          <entry key="xml" value="7661" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="198" />
           <entry key="HTML" value="215" />
-          <entry key="JAVA" value="22555" />
+          <entry key="JAVA" value="23843" />
           <entry key="JSP" value="3" />
           <entry key="JavaScript" value="6503" />
           <entry key="PLAIN_TEXT" value="96" />
           <entry key="Properties" value="164" />
-          <entry key="SQL" value="164" />
-          <entry key="XML" value="8160" />
+          <entry key="SQL" value="168" />
+          <entry key="XML" value="8284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -113,13 +94,13 @@
           <entry key="css" value="5" />
           <entry key="fxml" value="1" />
           <entry key="html" value="28" />
-          <entry key="java" value="329" />
+          <entry key="java" value="332" />
           <entry key="jpg" value="3" />
-          <entry key="js" value="46" />
+          <entry key="js" value="47" />
           <entry key="jsp" value="4" />
           <entry key="properties" value="3" />
           <entry key="sql" value="3" />
-          <entry key="xml" value="100" />
+          <entry key="xml" value="104" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -128,67 +109,46 @@
           <entry key="CSS" value="5" />
           <entry key="HTML" value="28" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="329" />
+          <entry key="JAVA" value="332" />
           <entry key="JSP" value="4" />
-          <entry key="JavaScript" value="46" />
+          <entry key="JavaScript" value="47" />
           <entry key="Properties" value="3" />
           <entry key="Scratch" value="3" />
-          <entry key="XML" value="102" />
+          <entry key="XML" value="106" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/index/ShopListController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-906">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#823#838#0" expanded="true" />
+                <element signature="e#2704#2719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ShopCategoryDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/index/MainPageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ShopDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/index/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/com/util/PathUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="427">
+              <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -214,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/web/com/exception/ProductCategoryOperationException.java" />
-        <option value="$PROJECT_DIR$/src/main/web/com/dto/ProductCategoryExecution.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/ProductCategorryDao.xml" />
         <option value="$PROJECT_DIR$/src/main/web/com/service/ProductCategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/web/com/controller/shopadmin/ProductController.java" />
@@ -265,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/main/web/com/controller/index/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/index/index.js" />
         <option value="$PROJECT_DIR$/src/main/web/com/controller/index/MainPageController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/com/controller/index/ShopListController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/ShopDao.xml" />
       </list>
     </option>
   </component>
@@ -311,6 +271,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -396,6 +358,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="O2O" type="b2602c69:ProjectViewProjectNode" />
+              <item name="O2O" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -437,6 +408,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="O2O" type="b2602c69:ProjectViewProjectNode" />
+              <item name="O2O" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -462,8 +443,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +451,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/idea/O2O/src/main/web/com/enums/ShopStateEnum.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551635133612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551702119788" />
     <property name="last_opened_file_path" value="D:/project/image/upload" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -726,7 +705,8 @@
       <workItem from="1551489010616" duration="1703000" />
       <workItem from="1551592824294" duration="609000" />
       <workItem from="1551602651572" duration="2769000" />
-      <workItem from="1551627348688" duration="3387000" />
+      <workItem from="1551627348688" duration="5020000" />
+      <workItem from="1551696874903" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1551072307993</created>
@@ -792,7 +772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260702000" />
+    <option name="totallyTimeSpent" value="267558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,9 +784,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900597" visible="true" weight="0.27175367" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900597" visible="true" weight="0.27576974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -816,7 +797,7 @@
       <window_info id="Web" order="7" sideWeight="0.500994" side_tool="true" weight="0.22021419" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.5236111" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4986613" visible="true" weight="0.05138889" />
       <window_info anchor="bottom" x="16" y="351" width="855" height="527" id="Debug" order="3" sideWeight="0.49933067" weight="0.37361112" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -931,30 +912,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/shopadmin/ShopManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="192" column="23" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/shopadmin/ProductCategoryManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="122" column="25" selection-start-line="122" selection-start-column="25" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/com/dao/ProductImgDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1051,12 +1008,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ProductDao.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="164" column="54" lean-forward="true" selection-start-line="164" selection-start-column="54" selection-end-line="164" selection-end-column="54" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/com/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1172,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ShopCategoryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/HeadLineDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1253,11 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1268,20 +1213,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/index/MainPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/com/dao/ShopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/com/controller/index/ShopListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#823#838#0" expanded="true" />
+            <element signature="e#2704#2719#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ShopCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="90" lean-forward="true" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/ShopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
         </state>
       </provider>
     </entry>
