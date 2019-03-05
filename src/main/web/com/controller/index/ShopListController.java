@@ -73,9 +73,9 @@ public class ShopListController {
         return map;
     }
 
-    @RequestMapping(value = "shoplist",method = RequestMethod.GET)
+    @RequestMapping(value = "getshoplist",method = RequestMethod.GET)
     @ResponseBody
-    private Map<String,Object> shopList(HttpServletRequest request){
+    private Map<String,Object> getshopList(HttpServletRequest request){
         Map<String,Object> map=new HashMap<String,Object>();
         int pageIndex=HttpServletRequestUtil.getInt(request,"pageIndex");
         int pageSize=HttpServletRequestUtil.getInt(request,"pageSize");
@@ -100,6 +100,7 @@ public class ShopListController {
         Shop shopCondition =new Shop();
         if(parentId>0){
             ShopCategory parent=new ShopCategory();
+            parent.setShopCategoryId(parentId);
             ShopCategory shopCategory=new ShopCategory();
             shopCategory.setParent(parent);
             shopCondition.setShopCategory(shopCategory);
